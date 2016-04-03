@@ -1,0 +1,64 @@
+################import variables############
+import time
+import os
+import sys
+import Adafruit_BMP.BMP085 as BMP085
+import Adafruit_DHT
+############################################
+
+
+########## initalize pins and sesor)###########
+
+sensor1 = Adafruit_DHT.DHT11
+
+pin = 4
+
+sensor = BMP085.BMP085()
+
+
+##############################################
+
+############ read sensor ####################
+
+humidity, temperature = Adafruit_DHT.read_retry(sensor1, pin)
+
+
+#############################################
+
+########## Variables #######################
+Pressure=sensor.read_pressure()
+Temperature2=sensor.read_temperature()
+
+
+print 'Variable Pressure TEST=',Pressure
+
+########### print ###########################
+
+#if humidity is not None and temperature is not None:
+
+
+print 'Temp1={0:0.1f}* Humidity={1:0.1f}%'.format(temperature, humidity)
+
+print 'Temp2 = {0:0.2f} *C'.format(sensor.read_temperature())
+print 'Pressure = {0:0.2f}Pa'.format(sensor.read_pressure())
+
+print 'Altitude = {0:0.2f}m'.format(sensor.read_altitude()) 
+
+print 'Sealvel Pressure ={0:0.2f}Pa'.format(sensor.read_sealevel_pressure())
+
+
+##############################################
+
+########### Initiate Variable ################
+
+
+#Temp1=pi_dht_read#{0:0.1f}.format(temperature)
+
+#print 'whatever =', Temp1
+
+print 'Variable Pressure =', Pressure
+print 'Variable Temperature=', Temperature2 
+
+
+
+

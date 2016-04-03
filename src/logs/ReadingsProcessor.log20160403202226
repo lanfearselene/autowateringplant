@@ -1,0 +1,23 @@
+INFO:root:Readings file does not exist. Creating new readings file at : /root/autowateringplant/src/resources/Readings.xls
+INFO:root:Created new Readings File.
+INFO:root:Opening existing Readings file...
+INFO:root:Writing Readings...
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Wrote 0x2E to register 0xF4
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0x9665 from register pair 0xF6, 0xF7
+DEBUG:Adafruit_BMP.BMP085:Raw temp 0x6596 (26006)
+DEBUG:Adafruit_BMP.BMP085:Calibrated temperature 23.2 C
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Wrote 0x2E to register 0xF4
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0x9465 from register pair 0xF6, 0xF7
+DEBUG:Adafruit_BMP.BMP085:Raw temp 0x6594 (26004)
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Wrote 0x74 to register 0xF4
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0xA2 from register 0xF6
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0xC0 from register 0xF7
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0x80 from register 0xF8
+DEBUG:Adafruit_BMP.BMP085:Raw pressure 0x4581 (83329)
+DEBUG:Adafruit_BMP.BMP085:B5 = 3713
+DEBUG:Adafruit_BMP.BMP085:B6 = -287
+DEBUG:Adafruit_BMP.BMP085:B3 = 15730
+DEBUG:Adafruit_BMP.BMP085:B4 = 33797
+DEBUG:Adafruit_BMP.BMP085:B7 = 1689975000
+DEBUG:Adafruit_BMP.BMP085:Pressure 99982 Pa
+INFO:root:Finished writing readings. Saving file and exiting...
