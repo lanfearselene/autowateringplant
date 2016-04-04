@@ -26,6 +26,9 @@ def createFile():
     sheet_readings.write(0, 3, 'Pressure')
     sheet_readings.write(0, 4, 'Humidity')
     sheet_readings.write(0, 5, 'Moisture')
+
+    #Adding readings column for plant 2
+    sheet_readings.write(0, 6, 'Moisture 2')
     
     book.save(projPath + resPath + fileName)
     logging.info("Created new Readings File.")
@@ -48,6 +51,8 @@ def writeReadings():
     sheet.write(row, 3, str(SR.getPressure()) + ' Pa')
     sheet.write(row, 4, str(SR.getHumidity()) + ' %')
     sheet.write(row, 5, str(SR.getMoisture()))
+    #Setting up a 6th coloum for the second plant
+    sheet.write(row, 6, str(SR.getMoisture2()))
 
     logging.info("Finished writing readings. Saving file and exiting...")
 
