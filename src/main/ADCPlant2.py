@@ -18,4 +18,4 @@ def getPlant2Moisture():
     return plant2
 
 plant2=getPlant2Moisture()
-print plant 2
+print plant2
