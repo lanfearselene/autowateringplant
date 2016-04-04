@@ -19,6 +19,9 @@ bmpSensor = BMP085.BMP085()
 dhtPin = 4
 mcpPin = 0
 
+# Adding a second plant to channel 7 of MCP3008
+mcpPin2 = 7
+
 
 # Initializing GPIO
 
@@ -37,6 +40,9 @@ avgTemp = 0
 bmpPressure = 0
 mcpMoisture = 0
 
+#Initializing 'mositure' variable for second plant
+mcpMoisture2 = 0
+
 def getPressure():
     bmpPressure=bmpSensor.read_pressure()
     return bmpPressure;
@@ -54,6 +60,12 @@ def getHumidity():
 def getMoisture():
     mcpMoisture = mcp3008.readadc(mcpPin)
     return mcpMoisture
+
+# adding a function to read data from second plant
+def getMoisture2():
+    mcpMoisture2 = mcp3008.readadc(mcpPin2)
+    return mcpMoisture2
+
 
 
 
