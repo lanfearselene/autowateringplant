@@ -18,6 +18,7 @@ bmpSensor = BMP085.BMP085()
 
 dhtPin = 4
 mcpPin = 0
+mcpPin2 = 1
 
 
 # Initializing GPIO
@@ -55,7 +56,12 @@ def getMoisture():
     mcpMoisture = mcp3008.readadc(mcpPin)
     return mcpMoisture
 
+def getMoisture2():
+    blah = mcp3008.readadc(mcpPin2)
+    return blah
 
+print mcpMoisture
+print blah
 
 
 
