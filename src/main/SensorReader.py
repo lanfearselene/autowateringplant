@@ -37,6 +37,7 @@ bmpTemp=bmpSensor.read_temperature()
 avgTemp = 0
 bmpPressure = 0
 mcpMoisture = 0
+blah = 0
 
 def getPressure():
     bmpPressure=bmpSensor.read_pressure()
