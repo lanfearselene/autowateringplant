@@ -12,10 +12,7 @@ mcpPin2 = 1
 
 plant2=0
 
+plant2=mcp3008.readadc(mcpPin2)
 
-def getPlant2Moisture():
-    plant2 = mcp3008.readadc(mcpPin2)
-    return plant2
-
-plant2=getPlant2Moisture()
 print plant2
+
