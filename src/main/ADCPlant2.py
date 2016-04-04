@@ -8,7 +8,7 @@ import RPi.GPIO as GPIO
 import mcp3008
 
 ########## initalize pins and sensors###########
-mcpPin2 = 1
+mcpPin2 = 0
 
 plant2=0
 
