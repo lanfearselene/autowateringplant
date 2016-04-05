@@ -1,0 +1,20 @@
+INFO:root:Opening existing Readings file...
+INFO:root:Writing Readings...
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Wrote 0x2E to register 0xF4
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0x6667 from register pair 0xF6, 0xF7
+DEBUG:Adafruit_BMP.BMP085:Raw temp 0x6766 (26470)
+DEBUG:Adafruit_BMP.BMP085:Calibrated temperature 26.2 C
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Wrote 0x2E to register 0xF4
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0x6567 from register pair 0xF6, 0xF7
+DEBUG:Adafruit_BMP.BMP085:Raw temp 0x6765 (26469)
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Wrote 0x74 to register 0xF4
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0xA2 from register 0xF6
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0xD9 from register 0xF7
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0x80 from register 0xF8
+DEBUG:Adafruit_BMP.BMP085:Raw pressure 0x45B3 (83379)
+DEBUG:Adafruit_BMP.BMP085:B5 = 4185
+DEBUG:Adafruit_BMP.BMP085:B6 = 185
+DEBUG:Adafruit_BMP.BMP085:B3 = 15595
+DEBUG:Adafruit_BMP.BMP085:B4 = 33584
+DEBUG:Adafruit_BMP.BMP085:B7 = 1694600000
+DEBUG:Adafruit_BMP.BMP085:Pressure 100895 Pa
