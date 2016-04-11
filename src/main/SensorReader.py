@@ -72,7 +72,3 @@ def getMoisture2():
 
 
 
-
-
-
-
