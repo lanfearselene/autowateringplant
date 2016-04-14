@@ -1,2 +1,6 @@
 INFO:root:Opening existing Readings file...
 INFO:root:Writing Readings...
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Wrote 0x2E to register 0xF4
+DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0xF767 from register pair 0xF6, 0xF7
+DEBUG:Adafruit_BMP.BMP085:Raw temp 0x67F7 (26615)
+DEBUG:Adafruit_BMP.BMP085:Calibrated temperature 27.1 C
