@@ -14,3 +14,7 @@ DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0x80 from register 0xF8
 DEBUG:Adafruit_BMP.BMP085:Raw pressure 0x4411 (82961)
 DEBUG:Adafruit_BMP.BMP085:B5 = 4321
 DEBUG:Adafruit_BMP.BMP085:B6 = 321
+DEBUG:Adafruit_BMP.BMP085:B3 = 15557
+DEBUG:Adafruit_BMP.BMP085:B4 = 33524
+DEBUG:Adafruit_BMP.BMP085:B7 = 1685100000
+DEBUG:Adafruit_BMP.BMP085:Pressure 100506 Pa
