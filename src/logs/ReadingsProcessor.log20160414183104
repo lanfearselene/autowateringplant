@@ -11,3 +11,10 @@ DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Wrote 0x74 to register 0xF4
 DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0xA1 from register 0xF6
 DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0xC4 from register 0xF7
 DEBUG:Adafruit_I2C.Device.Bus.1.Address.0X77:Read 0x80 from register 0xF8
+DEBUG:Adafruit_BMP.BMP085:Raw pressure 0x4389 (82825)
+DEBUG:Adafruit_BMP.BMP085:B5 = 4419
+DEBUG:Adafruit_BMP.BMP085:B6 = 419
+DEBUG:Adafruit_BMP.BMP085:B3 = 15529
+DEBUG:Adafruit_BMP.BMP085:B4 = 33481
+DEBUG:Adafruit_BMP.BMP085:B7 = 1682400000
+DEBUG:Adafruit_BMP.BMP085:Pressure 100475 Pa
