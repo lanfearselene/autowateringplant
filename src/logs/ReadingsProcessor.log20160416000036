@@ -18,3 +18,4 @@ DEBUG:Adafruit_BMP.BMP085:B3 = 15559
 DEBUG:Adafruit_BMP.BMP085:B4 = 33528
 DEBUG:Adafruit_BMP.BMP085:B7 = 1690775000
 DEBUG:Adafruit_BMP.BMP085:Pressure 100833 Pa
+INFO:root:Finished writing readings. Saving file and exiting...
