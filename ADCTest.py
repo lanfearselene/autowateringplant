@@ -16,4 +16,4 @@ def getAdc(channel):
     sleep(0.1)
 
 while True:
-    getAdc(0)
+    print getAdc(7)

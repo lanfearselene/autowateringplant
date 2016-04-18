@@ -67,7 +67,7 @@ def getMoisture2():
     return mcpMoisture2
 
 
-
+print getMoisture2()
 
 
 
